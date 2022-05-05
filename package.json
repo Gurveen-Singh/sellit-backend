@@ -1,32 +1,30 @@
 {
-  "name": "sellit-backend",
+  "name": "done-with-it-backend",
   "version": "1.0.0",
-  "description": "Backend for SellIt App",
+  "description": "",
   "main": "index.js",
-  "private": "true",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
-  "keywords": [
-    "Nodejs",
-    "Express",
-    "Multer",
-    "CORS"
-  ],
+  "engines": {
+    "node": "12.6.x"
+  },
+  "keywords": [],
+  "author": "Mosh Hamedani",
+  "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "expo-server-sdk": "^3.6.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "expo-server-sdk": "^3.5.0",
     "express": "^4.17.1",
-    "jimp": "^0.16.1",
+    "helmet": "^3.22.0",
+    "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.18",
     "multer": "^1.4.2",
-    "uuid": "^8.3.2"
+    "sharp": "^0.25.2"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.2"
   }
 }

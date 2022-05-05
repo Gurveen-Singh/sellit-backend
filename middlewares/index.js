@@ -1,1 +1,0 @@
-exports.requireAuth = require('./auth')

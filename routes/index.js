@@ -1,5 +1,0 @@
-exports.authRoutes = require('./auth')
-exports.listingRoutes = require('./listing')
-exports.userRoutes = require('./user')
-exports.notificationsRoutes = require('./notifications')
-exports.messageRoutes = require('./message')
