@@ -1,0 +1,32 @@
+{
+  "name": "sellit-backend",
+  "version": "1.0.0",
+  "description": "Backend for SellIt App",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Multer",
+    "CORS"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "expo-server-sdk": "^3.6.0",
+    "express": "^4.17.1",
+    "jimp": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
